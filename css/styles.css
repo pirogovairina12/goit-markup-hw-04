@@ -257,8 +257,11 @@ h1.header-title {
     background-color: var(--btn-hover-color);
 }
 
+.customers{
+    padding: 120px 0 130px 0;
+}
+
 .customers-list {
-    margin: 8px 0 0 0;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -279,14 +282,15 @@ h1.header-title {
     border-radius: 4px;
 }
 
-.customers-icon:focus,
 .customers-icon:hover{
     fill: #404BBF;
 }
 
-.customers-link:hover,
-.customers-link:focus{
-    border: 1px solid var(--btn-hover-color);
+.customers-link:hover{
+    border-color: var(--btn-hover-color);
+}
+.customers-link:hover .customers-icon{
+    fill: #404BBF;
 }
 
 
