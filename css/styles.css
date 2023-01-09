@@ -175,6 +175,11 @@ button.header-btn {
     background-color: var(--hero-bg-color);
     text-align: center;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 
@@ -218,7 +223,7 @@ h1.header-title {
 }
 
 
-.our-team-name{
+.our-team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -296,6 +301,7 @@ ul.header-list.list {
     justify-content: space-around;
     gap: 40px;
 }
+
 li.header-item {
     padding: 24px 0 24px 0;
 }
@@ -341,7 +347,7 @@ ul.team-list {
     justify-content: space-between;
 }
 
-.our-team-section{
+.our-team-section {
     padding: 120px 0 120px 0;
 }
 
@@ -350,13 +356,12 @@ ul.team-list {
 }
 
 
-.hero-skill  {
+.hero-skill {
     padding: 120px 0 120px 0;
 }
 
 
-
-.li-title-skill{
+.li-title-skill {
     margin: 0 0 8px 0;
     font-weight: 500;
     font-size: 20px;
@@ -374,7 +379,7 @@ h2.title-skill {
     margin: 0 0 72px 0;
 }
 
-h2.title{
+h2.title {
     font-weight: 600;
     font-size: 36px;
     text-align: center;
@@ -418,7 +423,6 @@ ul.portfolio-list-buttons.list {
 }
 
 
-
 li.portfolio-item:hover {
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
     cursor: pointer;
@@ -442,12 +446,12 @@ p.projects-text {
     width: 264px;
 }
 
-.team-list{
+.team-list {
     display: flex;
     gap: 24px;
 }
 
-.our-team-text{
+.our-team-text {
     padding: 38px 0;
 }
 
@@ -458,20 +462,16 @@ p.projects-text {
     height: auto;
 }
 
-.portfolio-block-text{
+.portfolio-block-text {
     padding: 32px 16px;
     border: 0.5px solid var(--our-team-bg-color);
 }
 
 section.portfolio {
     padding-top: 96px;
-    padding-bottom:120px;
+    padding-bottom: 120px;
 }
 
-.hero-bg{
-    width: 100%;
-    background-image: url(./images/people-office.png);
-}
 
 .portfolio-block-text__title {
     font-weight: 500;
